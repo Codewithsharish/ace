@@ -7,46 +7,6 @@ Original file is located at
     https://colab.research.google.com/gist/Codewithsharish/487988c1bc7539668a7b1dc6d1dd14eb/acm_voiceassistant.ipynb
 """
 
-!pip install wolframalpha
-
-!pip install wikipedia
-
-!pip install SpeechRecognition
-
-!pip install pyttsx3
-
-!pip install ecapture
-
-!pip install requests
-
-!pip install beautifulsoup4
-
-!pip install urllib3
-
-!!pip install comtypes
-
-!pip install pytest-warnings
-
-!pip install gTTS
-
-!pip install playsound
-
-!pip install pyobject
-
-!sudo apt-get install espeak
-
-!pip install random2
-
-!pip install datetime
-
-!pip install pytest-shutil
-
-!sudo apt-get install python3-pyaudio
-
-!pip install pyaudio
-
-!pip install psutil
-
 import os
 
 os.environ['LD_LIBRARY_PATH'] = '/path/to/libespeak.so.1'
